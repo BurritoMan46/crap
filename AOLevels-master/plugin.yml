@@ -1,0 +1,22 @@
+---
+name: AOLevels
+author: KYNGAP3X: kyng\Levels\Main
+version: 1.0.0
+api: [3.0.0-ALPHA10, 3.0.0-ALPHA11, 3.0.0]
+commands:
+ stats:
+  description: Shows your current stats!
+  default: true
+ addexp:
+  description: Add experience to a player!
+  usage: /addexp <player> <exp>
+  default: op
+ reduceexp:
+  description: Reduce a player's experience!
+  usage: /reduceexp <player> <exp>
+  default: op
+ levelup:
+  description: Level up with your current experience!
+  default: true
+  aliases: [lu, levup, level, up]
+...
