@@ -24,7 +24,7 @@ class Main extends PluginBase implements Listener
 
     public function onEnable()
     {
-        $this->getLogger()->info("AOLevels now enabled!");
+        $this->getLogger()->info("LevelsCore now enabled!");
         $this->stats = new Config($this->getDataFolder() . "stats.yml", Config::YAML, array());
         if (!is_dir($this->getDataFolder())) mkdir($this->getDataFolder());
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
