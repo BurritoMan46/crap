@@ -1,8 +1,10 @@
 ---
 name: LevelsCore
+main: kyng\Levels\Main
 author: KYNGAP3X: kyng\Levels\Main
 version: 1.0.0
 api: [3.0.0-ALPHA10, 3.0.0-ALPHA11, 3.0.0-ALPHA12, 4.0.0]
+
 commands:
  stats:
   description: Shows your current stats!
