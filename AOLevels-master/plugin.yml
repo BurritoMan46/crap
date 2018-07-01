@@ -8,17 +8,18 @@ description: level plugin.
 commands:
  stats:
   description: Shows your current stats!
-  default: true
+  usage: /stats
+  aliases: [st]
  addexp:
   description: Add experience to a player!
   usage: /addexp <player> <exp>
-  default: op
+  aliases: [aexp]
  reduceexp:
   description: Reduce a player's experience!
   usage: /reduceexp <player> <exp>
-  default: op
+  aliaess: [rexp]
  levelup:
   description: Level up with your current experience!
-  default: true
+  usage: /levelup 
   aliases: [lu, levup, level, up]
 ...
